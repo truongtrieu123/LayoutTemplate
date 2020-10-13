@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Dealer</title>
+        <style>
+            .flexcol{
+                
+                display: flex;
+                flex-direction: column;
+                
+            }
+            .flexHeader{
+                display: flex;
+            
+            }
+
+            .smallSize{
+                border-right: 1px dashed grey;
+                border-left: 1px dashed grey;
+                font-size: 15px;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+
+            .smallSize:last-child{
+                border-right: none;
+            }
+
+            .smallSize:first-child{
+                border-left:none;
+            }
+
+            :-ms-input-placeholder{
+                font-size: 16px;
+            }
+            .mail{
+                width: 30px;
+                height: 25px;
+                image-resolution: bottom;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            .Dealers{
+                font-size: 70px;
+                font-style: italic;
+                text-align: left;
+            }
+            .subcribeMe{
+                background-color: lightblue; 
+                border-radius: 5px;
+                float:right;
+            }
+            .capture{
+               width:100%; height:60%;
+               border: 1px solid black;
+               margin: 3px, 3px, 3px, 3px;
+            }
+            .bodypart
+            {
+                background-color: whitesmoke; 
+                width:80%;
+                margin-right: auto;
+                margin-left: auto;
+                padding-top: 30px;
+            }
+            .paper{
+                text-align: center;
+                background-image: url("img/BG.png");
+                background-size:cover;
+                height:70%;
+                width: 90%;
+            }
+        
+
+            .buyThisDeal{
+                float: center;
+                width: 90%; 
+                height:20%;
+                background-color: lightgreen; 
+                border-radius: 10px;
+            }
+            .center{
+                text-align: center;
+            }
+            .hrDotted{
+                border-top: 1px dashed grey;
+                width: 90%;
+                margin:5%;
+            }
+            .hrDotted2{
+                border-top: 1px dashed grey;
+                width: 90%;
+                margin-left:0px;
+            }
+            
+            .verticalDottedBorder{
+                border-left: 1px dashed grey;
+                border-right: 1px dashed grey;
+                border-collapse: collapse;
+                
+            }
+            
+
+            .verticalDottedBorder:first-child{
+                border-left: none;
+            }
+
+            .verticalDottedBorder:last-child{
+                border-right: none;
+            }
+
+            .row.paddingAlign{
+                
+                padding-left: 15px;
+            }
+
+            input{
+                box-sizing: 80px, 30px;
+            }
+            .signup{
+                font-size:20px;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+            .seedeal
+            {
+                margin: right ;
+                background-color: lightgreen;
+                border-radius: 10px;
+                font-size: 15px;
+            }
+
+            .onedayago{
+                border-radius: 10px;
+                background-color: lightgrey;
+            }
+            footer{
+                text-align: center; 
+                color:gray; 
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        </style>
+    </head>
+    <body style="background-color: lightsteelblue;">
+        <header style=" margin-top:20px;">
+            <div class="container" >
+
+                <div class="row">
+                    <div class="col">
+                        <div class="Dealers">Dealers</div>
+                        <div class="flexHeader">
+                            <div class="smallSize">Home </div>
+                            <div  class="smallSize">About </div>
+                            <div class="smallSize">All Deals </div>
+                            <div class="smallSize">Submit Your Deal </div>
+                            <img  src="img/mail.png" class="mail"><a href="img/mail.png"></a></img>
+                        </div>
+                    </div>
+
+                    <div class="col-5" style="background-color: white;">
+                        <image src="img/Top stripe.png" style="width:100%"/>
+                        <div class="singup">Sign up for free to get deals directly to your mailbox</div>
+                        <br/>
+                        <input placeholder="Enter your email address" type="text">
+                        <button class="subcribeMe"> Subscribe Me</button>
+                    
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <br/>
+        <br/>
+
+        <section class="bodypart" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <h3><strong>This is one very amazing deal</strong></h3>
+                        <br/>
+                        <image src="img/capture.png" class="capture"/>
+                        <br/>
+                        <br/>
+                        <p style="color:grey">Loren ipsum dolor sit amet, consecetur adipisicing elit, 
+                            sed do eiusmod tempor incididung ut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi
+                             ut alkqiup ex ea commodo consequat
+                        </p>
+                        
+                    </div>
+                    <div class="col">
+                        <div class="paper">
+                            <br/>
+                            <div style="color:lightgray"><b>This deal will end in:</b></div>
+                            <hr class="hrDotted"/>
+                            <div><strong>6 days 1 hrs 52 min 51 sec</strong></div>
+                            <hr class="hrDotted"/>
+                            <div style="color:lightgray"><b>Discount</b></div>
+                            <h4>43%</h4>
+                            <hr class="hrDotted"/>
+                            <div class="row">
+                                <div class="col" >
+                                    <div style="color:lightgray"><b>Deal Value</b></div>
+                                    <b>$47</b>
+                                </div>
+                                <div class="col">
+                                    <div style="color:lightgray"><b>You Save</b></div>
+                                    <b>$20</b>
+                                </div>
+                            </div>
+                            <hr class="hrDotted"/>
+                            
+                            <image style="width: 50%;height: 10%;" src="img/icon.png" alt="Errors" >
+                            </image>
+                           
+                            <br/><br/><br/><br/>
+                            <a href="https://www.google.com"><button class="buyThisDeal" ><h3>Buy this deal - 27$</h3></button></a>
+                            
+                        </div>
+                    </div>
+                   
+                </div>
+
+                <div class="row" >
+                    <image src="img/brands.png" style="margin-left:15px; border-top: 1px dashed grey; border-bottom: 1px dashed grey ; width: 95%; height: 30%"></image>
+                
+                </div>
+
+                <br/>
+                <br/> 
+                
+                <div class="row">
+                    <div class="col verticalDottedBorder">
+                        <div class="row  paddingAlign">
+                            <p><b>Lorem Ipsum Dolor Deal</b></p>
+                            <br/>
+                            
+                            <div style="border: 1px solid grey;">
+                            
+                                <image src="img/capture.png"></image>
+                                
+                                <div class="row" style="margin-top: 10px;margin-bottom: 10px;text-align: center;font-size:13px;">
+                                    <div class="col" >
+                                        <div style="color: grey;"><b>Deal Value</b></div>
+                                        <div><b>$47</b></div>
+                                    </div >
+                                    <div  class="col">
+                                        <div style="color: grey;"><b>Discount</b></div>
+                                        <div><b>43%</b></div>
+                                    </div >
+                                    <div  class="col">
+                                        <div style="color: grey;"><b>You Save</b></div>
+                                        <div><b>$20</b></div>
+                                    </div>
+                                    <br/>
+                                </div>
+                            </div>
+                            
+                            <div style="margin-top:10px;">
+                                
+                                <span style="font-size: 13px;">71 days 23 hrs 38 min 36 sec</span>
+                                <a href="https://www.google.com"><button class="seedeal">SEE DEAL</button></a>
+                            </div>
+
+                            <hr class="hrDotted2"/>
+
+                            <b><h4>About Our Deals</h4></b>
+                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+                            <br/>
+                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="col verticalDottedBorder">
+                        <div class="row  paddingAlign" >
+                            <p><b>Lorem Ipsum Dolor Deal</b></p>
+                            <br/>
+
+                            <div style="border: 1px solid grey">
+                                <image src="img/capture.png"></image>
+                                
+                                <div class="row" style="margin-top: 10px;margin-bottom: 10px;text-align: center;font-size:13px;">
+                                    <div class="col" >
+                                        <div style="color: grey;"><b>Deal Value</b></div>
+                                        <div><b>$47</b></div>
+                                    </div >
+                                    <div  class="col">
+                                        <div style="color: grey;"><b>Discount</b></div>
+                                        <div><b>43%</b></div>
+                                    </div >
+                                    <div  class="col">
+                                        <div style="color: grey;"><b>You Save</b></div>
+                                        <div><b>$20</b></div>
+                                    </div>
+                                    <br/>
+                                </div>
+                            </div>
+
+                            <div style="margin-top:10px;">
+                                
+                                <span style="font-size: 13px;">71 days 23 hrs 38 min 36 sec</span>
+                                <a href="https://www.google.com"><button class="seedeal">SEE DEAL</button></a>
+                            </div>
+                            <hr class="hrDotted2"/>
+                        
+                            <b><h4>Twitter Buzz</h4></b>
+                            <p>7 Photoshop tips for designing clean and modern websites su.pr/1ruOpp</p>
+                            <a href="https://www.google.com"><button class="onedayago" >1Day Ago</button></a>
+                            <hr class="hrDotted2"/>
+                            <p>7 Photoshop tips for designing clean and modern websites su.pr/1ruOpp</p>
+                            <a href="https://www.google.com"><button class="onedayago">1Day Ago</button></a>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="col verticalDottedBorder">
+                        <div class="row  paddingAlign">
+                            <p><b>Lorem Ipsum Dolor Deal</b></p>
+                            <br/>
+                            <div style="border: 1px solid grey">
+                            
+                                <image src="img/capture.png"></image>
+                                
+                                <div class="row" style="margin-top: 10px;margin-bottom: 10px;text-align: center;font-size:13px;">
+                                    <div class="col" >
+                                        <div style="color: grey;"><b>Deal Value</b></div>
+                                        <div><b>$47</b></div>
+                                    </div >
+                                    <div  class="col">
+                                        <div style="color: grey;"><b>Discount</b></div>
+                                        <div><b>43%</b></div>
+                                    </div >
+                                    <div  class="col">
+                                        <div style="color: grey;"><b>You Save</b></div>
+                                        <div><b>$20</b></div>
+                                    </div>
+                                    <br/>
+                                </div>
+                            </div>
+                            <div style="margin-top:10px;">
+                                <span style="font-size: 13px;">71 days 23 hrs 38 min 36 sec</span>
+                                <a href="https://www.google.com"><button class="seedeal">SEE DEAL</button></a>
+                            </div>
+                            <hr class="hrDotted2"/>
+
+                            <p><h4>Other Pages</h4></p>
+                            <hr class="hrDotted2"/>
+                            <a href="https://www.google.com" style="color:grey;">Home</a>
+                            <hr class="hrDotted2"/>
+                            <a href="https://www.google.com"style="color:grey;">About Our Dealers</a>
+                            <hr class="hrDotted2"/>
+                            <a href="https://www.google.com" style="color:grey;">All Deals</a>
+                            <hr class="hrDotted2"/>
+                            <a href="https://www.google.com" style="color:grey;">Contact</a>
+                           
+                        </div>
+
+                        <br/>
+                        <br/>
+                    </div>
+                </div>
+            
+
+               
+            </div>
+        </section>
+
+        
+        <footer>
+            <div> Copyright Information Goes Here 2012 All Rights REserved
+            </div>
+            <div>
+                Designed by <b style="color:black">Themes Kingdom</b>
+            </div>
+        </footer>
+
+    </body>
+</html>
+
